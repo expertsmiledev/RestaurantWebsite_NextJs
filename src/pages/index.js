@@ -34,7 +34,7 @@ function Template({ data }) {
     </>
   )
 }
-
+//function
 export async function getStaticProps({ preview }) {
   const data = (await getDataFromBucket(preview)) || [];
   return {
